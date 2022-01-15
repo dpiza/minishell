@@ -1,6 +1,6 @@
 # Minishell
 
-![42-Badge](https://img.shields.io/badge/%C3%89cole-42SP-blue)![C-Badge](https://img.shields.io/badge/Language-C-lightgrey)[![42Unlicense](https://img.shields.io/badge/License-42Unlicense-yellowgreen)](https://github.com/gcamerli/42unlicense)![WorkingProgress](https://img.shields.io/badge/WORK-IN%20PROGRESS-red)
+![42-Badge](https://img.shields.io/badge/%C3%89cole-42SP-blue)![C-Badge](https://img.shields.io/badge/Language-C-lightgrey)[![42Unlicense](https://img.shields.io/badge/License-42Unlicense-yellowgreen)](https://github.com/gcamerli/42unlicense)![Denny's 42Project Score](https://img.shields.io/badge/Success-110%2F100-brightgreen)
 
 ## Description
 
@@ -26,20 +26,27 @@ The objective of this project is to create a simple shell. And through that, to 
 
 • Redirections, Pipes and Environment variables.
 
-• **CTRL+C** and **CTRL+D**
+• **CTRL+C**, **CTRL+D** and **CTRL+\\**
 
 ## Bonus
 
-• &&, || with parenthesis for priorities.
 
 • The wildcard * should work for the current working directory.
 
 
 ## Usage
 
-``WORK IN PROGRESS``
+To compile the program, run:
 
-![](https://github.com/dpiza/resources/blob/master/gifs/jimc.gif?raw=true)
+```Shell
+$ make
+```
+Open minishell by executing:
+
+```Shell
+$ ./minishell
+```
+Have fun!
 
 ## License
 
