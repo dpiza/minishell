@@ -48,6 +48,10 @@ $ ./minishell
 ```
 Have fun!
 
+## Contribution
+
+This was a group project made in partnership with [Rafael Rocha](https://github.com/rkrocha)
+
 ## License
 
 This work is published under the terms of [42 Unlicense](https://github.com/gcamerli/42unlicense)
