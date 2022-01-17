@@ -48,6 +48,10 @@ $ ./minishell
 ```
 Have fun!
 
+## Additional Files
+
+The file [readline.supp](https://github.com/dpiza/minishell/blob/main/suppression/readline.supp) was used to help with the leak check using Valgrind, by hiding all the leaks caused by readline/readline.h and readline/history.h functions.
+
 ## Contribution
 
 This was a group project made in partnership with [Rafael Rocha](https://github.com/rkrocha)

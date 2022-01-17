@@ -6,7 +6,7 @@
 #    By: dpiza <dpiza@student.42sp.org.br>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/04 10:24:56 by rkochhan          #+#    #+#              #
-#    Updated: 2022/01/07 10:33:38 by dpiza            ###   ########.fr        #
+#    Updated: 2022/01/17 11:15:31 by dpiza            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,7 +121,7 @@ norm:
 leaks:			$(NAME)
 				valgrind -s --leak-check=full --show-reachable=yes \
 				--show-leak-kinds=all --trace-children=yes --track-fds=yes \
-				--suppressions=$(CURSUS42)/minishell/tests/readline.supp \
+				--suppressions=suppression/readline.supp \
 				./minishell
 
 .PHONY:			leaks
