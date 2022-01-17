@@ -1,4 +1,5 @@
-
+tests/*
+samples/*
 minishell
 
 # Prerequisites
